@@ -9,6 +9,7 @@
     backdrop-filter: blur(5px);
     padding: 2rem 6rem;
     max-height: 90px;
+    max-width: 100vw;
     z-index: 100;
 }
 
