@@ -95,6 +95,10 @@
     margin-top: 2rem;
 }
 
+.gpt3__whatgpt3-container-motion{
+    width: 30%;
+}
+
 /* Customizing feature component as per needs */
 .gpt3__whatgpt3-container .gpt3__features-container__feature {
     flex: 1;
@@ -114,6 +118,14 @@
         flex-direction: column;
         align-items: flex-start;
         margin-bottom: 0rem;
+    }
+
+    .gpt3__whatgpt3-container {
+        flex-direction: column;
+    }
+
+    .gpt3__whatgpt3-container-motion{
+        width: 100%;
     }
 
     .gpt3__whatgpt3-heading p {

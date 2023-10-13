@@ -108,13 +108,13 @@ const WhatGPT3 = () => {
         <p>Explore The Library</p>
       </motion.div>
       <div className='gpt3__whatgpt3-container'>
-        <motion.div animate={animation4} style={{width:'30%'}}>
+        <motion.div animate={animation4} className='gpt3__whatgpt3-container-motion'>
           <Feature title="Chatbots" text="GPT-3 enhances chatbots by providing natural language understanding and context-aware responses. This versatile AI improves user experiences, automates tasks, and offers multilingual support, making chatbots more effective in diverse industries. " />
         </motion.div>
-        <motion.div animate={animation5} style={{width:'30%'}}>
+        <motion.div animate={animation5} className='gpt3__whatgpt3-container-motion'>
           <Feature title="Knowledgebase" text="GPT-3 elevates knowledge bases by providing natural language understanding and context-aware responses. This AI-powered tool improves user access to information, automates knowledge retrieval, and offers multilingual support, enhancing the effectiveness of knowledge management systems." />
         </motion.div>
-        <motion.div animate={animation6} style={{width:'30%'}}>
+        <motion.div animate={animation6} className='gpt3__whatgpt3-container-motion'>
           <Feature title="Education" text="AI transforms education by offering natural language understanding and context-aware responses. This technology enhances personalized learning, automates tutoring, and provides multilingual support, making education more accessible and effective for students worldwide." />
         </motion.div>
       </div>
