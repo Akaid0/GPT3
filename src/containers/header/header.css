@@ -72,16 +72,17 @@
     outline: none;
     padding: 0 1rem;
     border: none;
-    transition: all 0.15s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .gpt3__header-content__input button:hover{
-    font-size: 23px ;
-    transition: all 0.15s ease-in-out;
+    color: white;
+    background: rgba(255, 72, 32, 0.6);
+    transition: all 0.3s ease-in-out;
 }
 
 .gpt3__header-content__input button:active{
-    font-size: 17px ;
+    font-size: 14px ;
     transition: all 0.15s ease-in-out;
 }
 

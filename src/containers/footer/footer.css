@@ -6,6 +6,8 @@
     align-items: center;
 
     background: var(--color-footer);
+    cursor: default;
+    padding-bottom: 40px !important;
 }
 
 .gpt3__footer-heading {
@@ -28,18 +30,36 @@
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    border: 1px solid white;
+    border: 1px solid #AE67FA;
+    border-radius: 10px;
     text-align: center;
     margin-bottom: 10rem;
     cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 18px;
 }
 
 .gpt3__footer-btn p {
     font-family: var(--font-family);
-    font-size: 18px;
+    font-weight: 700;
     line-height: 21px;
-    color: #FFFFFF;
     word-spacing: 2px;
+    color: white;
+}
+
+.gpt3__footer-btn:hover, .gpt3__footer-btn:focus{
+        color: #ffffff !important;
+        background: #AE67FA;
+        border: 1px solid #AE67FA;
+        text-shadow: 0 0 5px #ffffff,
+                    0 0 10px #ffffff,
+                    0 0 20px #ffffff;
+        box-shadow: 0 0 5px #AE67FA,
+                    0 0 20px #AE67FA,
+                    0 0 50px #AE67FA,
+                    0 0 100px #F49867;
+        font-size: 22px;
+        transition: all 0.5s ease-in-out;
 }
 
 .gpt3__footer-links {
@@ -97,6 +117,17 @@
     margin: 0.5rem 0;
     cursor: pointer;
     margin-top: 1rem;
+}
+
+.gpt3__footer-links_div p a {
+    color: white;
+}
+
+.gpt3__footer-links_div p:hover, :focus,:active{
+    color: #FF4820;
+}
+.gpt3__footer-links_div p a:hover, :focus, :active{
+    color: #FF4820;
 }
 
 .gpt3__footer-copyright {

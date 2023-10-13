@@ -7,8 +7,8 @@ const Menu = () =>(
   <>
     <p className='gpt3__navbar-links_container_title'><a href='#home'>Home</a></p>
     <p className='gpt3__navbar-links_container_title'><a href='#wgpt3'>What is GPT3?</a></p>
-    <p className='gpt3__navbar-links_container_title'><a href='#possibility'>Open AI</a></p>
     <p className='gpt3__navbar-links_container_title'><a href='#features'>Case Studies</a></p>
+    <p className='gpt3__navbar-links_container_title'><a href='#possibility'>Open AI</a></p>
     <p className='gpt3__navbar-links_container_title'><a href='#blog'>Library</a></p>
   </>
 )

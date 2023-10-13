@@ -5,17 +5,25 @@
     display: flex;
     flex-direction: column;
     background: var(--color-footer);
+    cursor: default;
 }
 
 .gpt3__blog-container_article-image {
     width: 100%;
     height: 100%;
     background: var(--color-footer);
+    overflow: hidden;
 }
 
 .gpt3__blog-container_article-image img{
     width: 100%;
     height: 100%;
+    transition: all 0.5s ease;
+}
+
+.gpt3__blog-container_article:hover .gpt3__blog-container_article-image img{
+    transform: scale(1.25);
+    transition: all 0.5s ease;
 }
 
 .gpt3__blog-container_article-content {
@@ -34,6 +42,18 @@
     color: white;
 }
 
+.readFullArticle{
+    line-height: 15px !important;
+    border-bottom: 1px solid white;
+    padding-bottom: 1px;
+    width: fit-content;
+}
+
+.readFullArticle:hover{
+    color: #FF4820;
+    border-bottom: 1px solid #FF4820;
+}
+
 .gpt3__blog-container_article-content h3 {
     font-family: var(--font-family);
     font-weight: 800;
@@ -43,6 +63,10 @@
 
     margin-bottom: 5rem;
     cursor: pointer;
+}
+
+.gpt3__blog-container_article-content h3:hover{
+    color: #FF4820;
 }
 
 .gpt3__blog-container_article-content p:last-child {

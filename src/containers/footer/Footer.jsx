@@ -11,7 +11,7 @@ const Footer = () => {
       <div className='gpt3__footer-btn'>
         <p>Join now</p>
       </div>
-
+ 
       <div className='gpt3__footer-links'>
         <div className='gpt3__footer-links_logo'>
           <img src={gpt3logo} alt='logo' />
@@ -31,9 +31,9 @@ const Footer = () => {
         </div>
         <div className='gpt3__footer-links_div'>
           <h4>Get in Touch</h4>
-          <p>hochedezluca@proton.me</p>
-          <p><a style={{color:'white'}} href='https://www.linkedin.com/in/lucawebdev/'>Linkedin</a></p>
-          <p><a style={{color:'white'}} href='https://github.com/Akaid0'>Github</a></p>
+          <p><a href="mailto:hochedezluca@proton.me?subject=Let's collaborate together">hochedezluca@proton.me</a></p>
+          <p><a href='https://www.linkedin.com/in/lucawebdev/'>Linkedin</a></p>
+          <p><a href='https://github.com/Akaid0'>Github</a></p>
         </div>
       </div>
       <div className='gpt3__footer-copyright'>
